@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <meta charset="utf-8"> 
+        <title>Contact Me</title>
+    </head>
+    <body>
+        <h1>연락처</h1>
+        <table>
+            <tr>
+                <td>
+                    전화번호        
+                </td>
+                <td>
+                    010-3322-1214
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    이메일
+                </td>
+                <td>
+                    dev_android@kakao.com
+                </td>
+            </tr>
+        </table>
+        
+        <hr>
+
+        <form 
+            action="mailto:a1a1a1214@gmail.com"
+            method="POST"
+            enctype="text/plain"
+            >
+            <!-- 태그가 감싸져 있으면 텍스트를 노출할 수 있음 -->
+            <label">이름</label>
+            <!-- 아래와 같은 경우는 타입을 설정하여 인풋 타입을 지정해줄수 있음 -->
+            <input type="text" name="name" ><br>
+        
+            <label>이메일</label>
+            <input type="email" name="email"><br>
+
+            <label>메시지</label><br>
+            <textarea name="msg" rows="8" cols="80"></textarea>                
+            <input type="submit"><br>
+        </form>
+
+    </body>
+</html>
